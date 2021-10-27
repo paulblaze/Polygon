@@ -42,7 +42,7 @@ async function depositCompleted(txHash) {
 
 // Param 1 - Deposit transaction hash
 depositCompleted(
-  "0xf57ab66e3970bb95423f4b01e1a293fdf42e8cb6f8ab0e800080e0ba03c6d55d"
+  "0xfacda1db45c31bc2740a37b9c5bb3b82c14e8d192332da393372a261595c5ebd"
 )
   .then((res) => {
     console.log(res);

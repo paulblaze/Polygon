@@ -13,11 +13,7 @@ const maticProvider = new HDWalletProvider(privateKey, 'https://rpc-mumbai.matic
 const web3 = new Web3(parentProvider);
 const child_web3 = new Web3(maticProvider);
 
-
-const rootToken = "0x29c6d5211C59cEF09c9870c79f137Db9582ffE71"; 
-
-
-request('https://apis.matic.network/api/v1/mumbai/block-included/20498052', function (error, response, body) {
+request('https://apis.matic.network/api/v1/mumbai/block-included/20698868', function (error, response, body) {
   if (!error && response.statusCode == 200) {
     console.log(body) // Print the google web page.    
   } else {
